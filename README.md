@@ -21,8 +21,22 @@ This repository contains the code and methods used to generate synthetic aerial 
 ### 2. Installation Instructions
 #### Prerequisites
 - Python 3.8 or higher
+- pip (need pip to install the required libraries)
 * GPU support (optional for faster training)
 + Dependencies listed in `requirements.txt`
+
+##### Create the `requirements.txt` file:
+This file will list all the Python libraries and packages required to run the project.
+
+```
+
+ultralytics==8.0.196
+roboflow==0.2.1
+diffusers["torch"]==0.10.0
+transformers==4.11.3
+accelerate==0.5.1
+
+```
 
 #### Clone the Repository
 ```
